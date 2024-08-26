@@ -1,0 +1,221 @@
+Analysis & Synthesis report for top
+Wed Jul 01 20:17:42 2020
+Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Analysis & Synthesis Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                  ;
++------------------------------------+------------------------------------------+
+; Analysis & Synthesis Status        ; Failed - Wed Jul 01 20:17:42 2020        ;
+; Quartus II Version                 ; 9.0 Build 132 02/25/2009 SJ Full Version ;
+; Revision Name                      ; top                                      ;
+; Top-level Entity Name              ; top                                      ;
+; Family                             ; Cyclone II                               ;
+; Total logic elements               ; N/A until Partition Merge                ;
+;     Total combinational functions  ; N/A until Partition Merge                ;
+;     Dedicated logic registers      ; N/A until Partition Merge                ;
+; Total registers                    ; N/A until Partition Merge                ;
+; Total pins                         ; N/A until Partition Merge                ;
+; Total virtual pins                 ; N/A until Partition Merge                ;
+; Total memory bits                  ; N/A until Partition Merge                ;
+; Embedded Multiplier 9-bit elements ; N/A until Partition Merge                ;
+; Total PLLs                         ; N/A until Partition Merge                ;
++------------------------------------+------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                            ;
++----------------------------------------------------------------+--------------------+--------------------+
+; Option                                                         ; Setting            ; Default Value      ;
++----------------------------------------------------------------+--------------------+--------------------+
+; Device                                                         ; EP2C5F256C7        ;                    ;
+; Top-level entity name                                          ; top                ; top                ;
+; Family name                                                    ; Cyclone II         ; Stratix II         ;
+; Use Generated Physical Constraints File                        ; Off                ;                    ;
+; Use smart compilation                                          ; Off                ; Off                ;
+; Restructure Multiplexers                                       ; Auto               ; Auto               ;
+; Create Debugging Nodes for IP Cores                            ; Off                ; Off                ;
+; Preserve fewer node names                                      ; On                 ; On                 ;
+; Disable OpenCore Plus hardware evaluation                      ; Off                ; Off                ;
+; Verilog Version                                                ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                   ; VHDL93             ; VHDL93             ;
+; State Machine Processing                                       ; Auto               ; Auto               ;
+; Safe State Machine                                             ; Off                ; Off                ;
+; Extract Verilog State Machines                                 ; On                 ; On                 ;
+; Extract VHDL State Machines                                    ; On                 ; On                 ;
+; Ignore Verilog initial constructs                              ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                     ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                 ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                        ; On                 ; On                 ;
+; Parallel Synthesis                                             ; Off                ; Off                ;
+; DSP Block Balancing                                            ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                             ; On                 ; On                 ;
+; Power-Up Don't Care                                            ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                   ; Off                ; Off                ;
+; Remove Duplicate Registers                                     ; On                 ; On                 ;
+; Ignore CARRY Buffers                                           ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                         ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                          ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                      ; Off                ; Off                ;
+; Ignore LCELL Buffers                                           ; Off                ; Off                ;
+; Ignore SOFT Buffers                                            ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                 ; Off                ; Off                ;
+; Optimization Technique                                         ; Balanced           ; Balanced           ;
+; Carry Chain Length                                             ; 70                 ; 70                 ;
+; Auto Carry Chains                                              ; On                 ; On                 ;
+; Auto Open-Drain Pins                                           ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                          ; Off                ; Off                ;
+; Auto ROM Replacement                                           ; On                 ; On                 ;
+; Auto RAM Replacement                                           ; On                 ; On                 ;
+; Auto Shift Register Replacement                                ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                  ; On                 ; On                 ;
+; Strict RAM Replacement                                         ; Off                ; Off                ;
+; Allow Synchronous Control Signals                              ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                         ; Off                ; Off                ;
+; Auto RAM to Logic Cell Conversion                              ; Off                ; Off                ;
+; Auto Resource Sharing                                          ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                             ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                             ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                  ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing            ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives              ; Off                ; Off                ;
+; Timing-Driven Synthesis                                        ; Off                ; Off                ;
+; Show Parameter Settings Tables in Synthesis Report             ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                             ; Off                ; Off                ;
+; Synchronization Register Chain Length                          ; 2                  ; 2                  ;
+; PowerPlay Power Optimization                                   ; Normal compilation ; Normal compilation ;
+; HDL message level                                              ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report       ; 100                ; 100                ;
+; Number of Inverted Registers Reported in Synthesis Report      ; 100                ; 100                ;
+; Clock MUX Protection                                           ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                    ; Off                ; Off                ;
+; Block Design Naming                                            ; Auto               ; Auto               ;
+; SDC constraint protection                                      ; Off                ; Off                ;
+; Synthesis Effort                                               ; Auto               ; Auto               ;
+; Allows Asynchronous Clear Usage For Shift Register Replacement ; On                 ; On                 ;
+; Analysis & Synthesis Message Level                             ; Medium             ; Medium             ;
++----------------------------------------------------------------+--------------------+--------------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II Analysis & Synthesis
+    Info: Version 9.0 Build 132 02/25/2009 SJ Full Version
+    Info: Processing started: Wed Jul 01 20:17:30 2020
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off top -c top
+Info: Found 2 design units, including 1 entities, in source file ../../AFFICHAGE/AFFICHAGE_VAL/AFFICHAGE.vhd
+    Info: Found design unit 1: AFFICHAGE-rtl
+    Info: Found entity 1: AFFICHAGE
+Info: Found 2 design units, including 1 entities, in source file ../../AFFICHAGE/AFFI_MILL/AFF4.vhd
+    Info: Found design unit 1: AFF4-rtl
+    Info: Found entity 1: AFF4
+Info: Found 2 design units, including 1 entities, in source file ../../AFFICHAGE/AFFI_DIZ/AFF2.vhd
+    Info: Found design unit 1: AFF2-rtl
+    Info: Found entity 1: AFF2
+Info: Found 2 design units, including 1 entities, in source file ../../AFFICHAGE/AFFI_CENT/AFF3.vhd
+    Info: Found design unit 1: AFF3-rtl
+    Info: Found entity 1: AFF3
+Info: Found 2 design units, including 1 entities, in source file ../../AFFICHAGE/AFF_UNIT/AFFI1.vhd
+    Info: Found design unit 1: AFFI1-rtl
+    Info: Found entity 1: AFFI1
+Info: Found 2 design units, including 1 entities, in source file ../../COMP9/COMP9.vhd
+    Info: Found design unit 1: COMP9-archi
+    Info: Found entity 1: COMP9
+Info: Found 2 design units, including 1 entities, in source file ../../ENTREE_MESURE/EN_VALEUR.vhd
+    Info: Found design unit 1: EN_VALEUR-rtl
+    Info: Found entity 1: EN_VALEUR
+Info: Found 2 design units, including 1 entities, in source file ../../HORLOGE DE FREQ/HORLOG_ORIG/HORLOG.vhd
+    Info: Found design unit 1: HORLOG-rtl
+    Info: Found entity 1: HORLOG
+Info: Found 2 design units, including 1 entities, in source file ../../HORLOGE DE FREQ/DIVISEUR_FREQ3/DIV_FREQ3.vhd
+    Info: Found design unit 1: DIV_FREQ3-rtl
+    Info: Found entity 1: DIV_FREQ3
+Info: Found 2 design units, including 1 entities, in source file ../../HORLOGE DE FREQ/DIVISEUR_FREQ2/DIV_FREQ2.vhd
+    Info: Found design unit 1: DIV_FREQ2-rtl
+    Info: Found entity 1: DIV_FREQ2
+Info: Found 2 design units, including 1 entities, in source file ../../HORLOGE DE FREQ/DIVISEUR_FREQ1/DIV_FREQ1.vhd
+    Info: Found design unit 1: DIV_FREQ1-rtl
+    Info: Found entity 1: DIV_FREQ1
+Info: Found 2 design units, including 1 entities, in source file ../../HORLOGE DE FREQ/BOITIER_HORLOGE/DIVISEUR_FREQ.vhd
+    Info: Found design unit 1: DIVISEUR_FREQ-rtl
+    Info: Found entity 1: DIVISEUR_FREQ
+Info: Found 2 design units, including 1 entities, in source file ../../MEMOIRE/UNITE MEMO/memoire_unit.vhd
+    Info: Found design unit 1: memoire_unit-rtl
+    Info: Found entity 1: memoire_unit
+Info: Found 2 design units, including 1 entities, in source file ../../MEMOIRE/MILLIER MEMO/MEMO_MIL.vhd
+    Info: Found design unit 1: MEMO_MIL-rtl
+    Info: Found entity 1: MEMO_MIL
+Info: Found 2 design units, including 1 entities, in source file ../../MEMOIRE/MEMORISATION BOITIER/MEMOIRE.vhd
+    Info: Found design unit 1: MEMOIRE-rtl
+    Info: Found entity 1: MEMOIRE
+Info: Found 2 design units, including 1 entities, in source file ../../MEMOIRE/DIZAINE MEMO/MEMO_DIZ.vhd
+    Info: Found design unit 1: MEMO_DIZ-rtl
+    Info: Found entity 1: MEMO_DIZ
+Info: Found 2 design units, including 1 entities, in source file ../../MEMOIRE/CENTAINE MEMO/MEMO_CENT.vhd
+    Info: Found design unit 1: MEMO_CENT-rtl
+    Info: Found entity 1: MEMO_CENT
+Warning: Entity "MUX" obtained from "C:/ENSAF/after/Semestre2 Ensa SEII1/VHDL/My_Personals_Projects/Halidou_project_fréquencemètre/MULTIPLEX/MUX/MUX.vhd" instead of from Quartus II megafunction library
+Info: Found 2 design units, including 1 entities, in source file ../../MULTIPLEX/MUX/MUX.vhd
+    Info: Found design unit 1: MUX-rtl
+    Info: Found entity 1: MUX
+Info: Found 2 design units, including 1 entities, in source file ../src/top.vhd
+    Info: Found design unit 1: top-rtl
+    Info: Found entity 1: top
+Info: Found 2 design units, including 1 entities, in source file ../../MULTIPLEX/AUTO_MANUEL/MUX2.vhd
+    Info: Found design unit 1: MUX2-rtl
+    Info: Found entity 1: MUX2
+Info: Elaborating entity "top" for the top level hierarchy
+Info: Elaborating entity "DIVISEUR_FREQ" for hierarchy "DIVISEUR_FREQ:horloge"
+Info: Elaborating entity "HORLOG" for hierarchy "DIVISEUR_FREQ:horloge|HORLOG:h1"
+Info: Elaborating entity "DIV_FREQ1" for hierarchy "DIVISEUR_FREQ:horloge|DIV_FREQ1:h2"
+Info: Elaborating entity "HORLOG" for hierarchy "DIVISEUR_FREQ:horloge|DIV_FREQ1:h2|HORLOG:h1"
+Info: Elaborating entity "DIV_FREQ2" for hierarchy "DIVISEUR_FREQ:horloge|DIV_FREQ2:h3"
+Info: Elaborating entity "HORLOG" for hierarchy "DIVISEUR_FREQ:horloge|DIV_FREQ2:h3|HORLOG:h1"
+Info: Elaborating entity "DIV_FREQ3" for hierarchy "DIVISEUR_FREQ:horloge|DIV_FREQ3:h4"
+Info: Elaborating entity "HORLOG" for hierarchy "DIVISEUR_FREQ:horloge|DIV_FREQ3:h4|HORLOG:h1"
+Info: Elaborating entity "MUX" for hierarchy "MUX:selection1"
+Info: Elaborating entity "MUX2" for hierarchy "MUX2:selection2"
+Info: Elaborating entity "EN_VALEUR" for hierarchy "EN_VALEUR:logique_comptage"
+Warning (10541): VHDL Signal Declaration warning at EN_VALEUR.vhd(18): used implicit default value for signal "latch_compt" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Error (10822): HDL error at EN_VALEUR.vhd(28): couldn't implement registers for assignments on this clock edge File: C:/ENSAF/after/Semestre2 Ensa SEII1/VHDL/My_Personals_Projects/Halidou_project_fréquencemètre/ENTREE_MESURE/EN_VALEUR.vhd Line: 28
+Warning (10873): Using initial value X (don't care) for net "enable_compt" at EN_VALEUR.vhd(17)
+Error: Can't elaborate user hierarchy "EN_VALEUR:logique_comptage" File: C:/ENSAF/after/Semestre2 Ensa SEII1/VHDL/My_Personals_Projects/Halidou_project_fréquencemètre/top/src/top.vhd Line: 150
+Error: Quartus II Analysis & Synthesis was unsuccessful. 2 errors, 3 warnings
+    Error: Peak virtual memory: 251 megabytes
+    Error: Processing ended: Wed Jul 01 20:17:42 2020
+    Error: Elapsed time: 00:00:12
+    Error: Total CPU time (on all processors): 00:00:08
+
+
